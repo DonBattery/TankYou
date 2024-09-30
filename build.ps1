@@ -3,7 +3,7 @@ $ErrorActionPreference = "Stop"
 $repositoryPath = Get-Location 
 $zipFileName = "archive.zip"
 $zipFilePath = Join-Path $repositoryPath $zipFileName
-$webBuildFolder = "www"
+$webBuildFolder = "docs"
 
 Write-Host "Zipping the repository..."
 
